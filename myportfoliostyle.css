@@ -23,8 +23,10 @@ font-size: 70%
  
       
  .header {
-  background-image: linear-gradient( 337deg, rgba(6, 233, 108, 0.8), rgba(17, 243, 224, 0.418) 70.71%),
-  url(https://www.copaair.com/promotions/airtrfx-lp/MIA-cover-md.jpg);
+  background-image: /*linear-gradient( 337deg, rgba(6, 233, 108, 0.8), rgba(17, 243, 224, 0.418) 70.71%), */
+  
+  
+  url(file:///Users/BiankaRivera/Downloads/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +36,7 @@ font-size: 70%
  }
 
  .topnav {
-  background-color:rgba(255, 255, 255, 0.56);
+  background-color:rgba(247, 241, 241, 0.45);
   border-radius: 1.7rem;
   overflow: hidden;
 }
@@ -42,7 +44,7 @@ font-size: 70%
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color:  rgb(255, 255, 255);
+  color:  rgb(66, 66, 66);
   text-align: center;
   padding: 1.4rem 1.6rem;
   text-decoration: none;
@@ -62,10 +64,9 @@ font-size: 70%
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-  background-color: rgba(6, 233, 108, 0.50);
+/* .topnav a.active {
   color: white;
-}
+} */
 
  .text-box{
   position: absolute;
@@ -77,7 +78,7 @@ font-size: 70%
 }
 
 .title-main {
-  color: #fff;
+  color:rgb(66, 66, 66);
   text-transform: capitalize;
   margin: 5rem;
 
