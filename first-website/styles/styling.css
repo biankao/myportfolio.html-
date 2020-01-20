@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+/* em  */
+
+html, body {
+height: 100%;
+font-size: 70%    
+  /* 62.5  (desired amount of pixels 10px / divded by the parent or default font-size 16 = 0.625%) */
+}
+ 
+ body{
+   font-family: 'Open Sans', Georgia, Times, 'Times New Roman', serif;
+   /* font-weight: 400;
+   line-height: 1.7; */
+   color: rgb(150, 147, 144);
+   box-sizing: border-box;
+ }
+
+ 
+      
+ .header {
+  background-image: /*linear-gradient( 337deg, rgba(6, 233, 108, 0.8), rgba(17, 243, 224, 0.418) 70.71%), */
+  
+  
+  url(file:///Users/BiankaRivera/Downloads/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+
+   
+ }
+
+ .topnav {
+  background-color:rgba(247, 241, 241, 0.45);
+  border-radius: 1.7rem;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:  rgb(66, 66, 66);
+  text-align: center;
+  padding: 1.4rem 1.6rem;
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  transform: translateY(-5%);
+  color: rgb(10, 141, 130);
+}
+
+.topnav a:active{
+  transform: translateY(4%);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
+
+}
+
+/* Add a color to the active/current link */
+/* .topnav a.active {
+  color: white;
+} */
+
+ .text-box{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.title-main {
+  color:rgb(66, 66, 66);
+  text-transform: capitalize;
+  margin: 5rem;
+
+}
+
+.primary-head{
+  font-size: 4rem;
+  font-weight: 400;
+  display: block;
+  
+}
+
+.primary-sub{
+  margin-top: .5rem;
+  font-size: 3rem;
+  font-weight: 300;
+  display: block;
+}
+
+
