@@ -26,7 +26,7 @@ font-size: 70%
   background-image: /*linear-gradient( 337deg, rgba(6, 233, 108, 0.8), rgba(17, 243, 224, 0.418) 70.71%), */
   
   
-  url(file:///Users/BiankaRivera/Downloads/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
+  url(file:///Users/BiankaRivera/Desktop/portfolio/first-website/img/sarah-dorweiler.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@ font-size: 70%
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color:  rgb(66, 66, 66);
+  color:  rgb(45, 62, 18);
   text-align: center;
   padding: 1.4rem 1.6rem;
   text-decoration: none;
@@ -67,7 +67,12 @@ font-size: 70%
 /* .topnav a.active {
   color: white;
 } */
+ img{
+   max-width: 100;
+   max-height: 100%;
 
+ }
+ 
  .text-box{
   position: absolute;
   top: 40%;
@@ -78,7 +83,7 @@ font-size: 70%
 }
 
 .title-main {
-  color:rgb(66, 66, 66);
+  color:rgb(0, 0, 0);
   text-transform: capitalize;
   margin: 5rem;
 
